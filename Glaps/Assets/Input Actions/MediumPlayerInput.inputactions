@@ -1,0 +1,56 @@
+{
+    "name": "MediumPlayerInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "0eb65dde-c380-460d-b856-d294fcf542e3",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "37c07d2c-a35b-4ca4-a4e2-fc0b979f8e99",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Horizontal",
+                    "id": "b3d6869f-c43f-4c58-a20f-c913481655f4",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "f7d74f99-77f7-4ce3-a601-f515ad42cf00",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "baa11c12-8ff2-4de0-8464-720fbe65ec39",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
