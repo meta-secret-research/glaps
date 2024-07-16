@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// https://roystan.net/articles/character-controller-2d/
+
 [RequireComponent(typeof(BoxCollider2D))]
 
 public class IronWarrierController : MonoBehaviour
